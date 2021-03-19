@@ -1,0 +1,116 @@
+/*  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #010202;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1146px;
+  margin: auto;
+  padding: 56px 0;
+}
+
+.logo {
+  display: block;
+}
+
+.user_photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user_name {
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    #010202 0%,
+    #010202 43%,
+    rgba(1, 2, 2, 0.2) 90.9%
+  );
+  color: white;
+}
+
+.film {
+  padding: 7% 0;
+  width: 90%;
+  max-width: 1145px;
+  margin: auto;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  color: #e5e5e5;
+  font-size: 16px;
+  line-height: 140%;
+  opacity: 0.4;
+}
+
+.tags > * {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.age {
+  padding: 1px 5px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.description {
+  max-width: 400px;
+  font-size: 21px;
+  line-height: 140%;
+  margin-bottom: 36px;
+}
+
+.button {
+  padding: 11px 26px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  line-height: 140%;
+  background: #2f2f2f;
+  color: white;
+  cursor: pointer;
+}
+
+.button_primary {
+  background: #ea6e20;
+  margin-right: 15px;
+}
+
+.button_text {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}

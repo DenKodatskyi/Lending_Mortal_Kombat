@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mortal Kombat</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="src/assets/img/cover-image.jpg" type="image/png">
+  <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/media.css">
+</head>
+
+<body>
+  <!-- APP -->
+  <div class="app" id="app">
+    
+    <!-- VIDEO -->
+    <div style="width: 1680px; height: 1000px;" data-vide-bg="./src/assets/video/video.mp4"
+      data-vide-options="loop: true, muted: false, position: 0% 0%">
+
+      <!-- HEADER -->
+      <header class="header">
+        <a class="logo" href="/">
+          <img class="logo_image" src="./src/assets/img/logo.svg" alt="Logo: KinoPulse" srcset="">
+        </a>
+        <a class="user" href="#">
+          <span class="user_name">DEN</span>
+          <img class="user_photo" src="/src/assets/img/01_smile.jpg" alt="avatar">
+        </a>
+      </header>
+      <!-- /.header -->
+
+      <!-- FILM -->
+      <section class="film">
+        <img class="film_logo" src="./src/assets/img/film-logo.png" alt="Mortal Kombat">
+        <div class="tags">
+          <span class="date">2021</span>
+          <span class="genre">action, fantasy, science fiction</span>
+          <span class="country">USA</span>
+          <span class="age">18+</span>
+        </div>
+        <!-- /.tags -->
+        <p class="description">
+          Continuation of the legendary film from the 90s. A truly deadly battle lies ahead, where only the strongest will
+          remain
+        <div class="button_group">
+          <button class="button button_primary">Movie pre-order</button>
+          <a class="button button_default" data-fancybox href="https://youtu.be/NYH2sLid0Zc">
+            <img class="button_icon" src="./src/assets/img/play.svg" alt="icon: play">
+            <span class="button_text">Watch the trailer</span>
+          </a>
+        </div>
+        </p>
+      </section>
+      <!-- /.film -->
+
+    </div>
+    <!-- /.video -->
+
+  </div>
+  <!-- /.app -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="src/js/jquery.vide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>

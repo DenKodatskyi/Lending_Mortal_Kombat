@@ -1,0 +1,40 @@
+@media (max-width: 800px) {
+  .app {
+    height: auto;
+    padding-bottom: 400px;
+    background-image: url(../assets/img/cover-image.jpg) no-repeat bottom center /
+      300px;
+  }
+
+  .film {
+    padding-top: 2%;
+  }
+
+  .description {
+    max-width: 333px;
+    font-size: 16px;
+  }
+
+  .film_logo {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 567px) {
+  .app {
+    padding-bottom: 250px;
+    background-size: 300px;
+  }
+
+  .button {
+    margin-bottom: 10px;
+  }
+
+  .button_text {
+    display: none;
+  }
+
+  .user_name {
+    display: none;
+  }
+}
